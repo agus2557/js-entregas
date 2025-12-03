@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entregable 2 - Simulador de Compras (Progreso)</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Simulador de Compras</h1>
+    <p class="sub">Entrega 2 - AGUSTIN BOCALANDRO</p>
+  </header>
+
+  <main>
+    <section id="catalogo" class="card">
+      <h2>Catálogo de Productos</h2>
+      <div id="productosList" class="grid"></div>
+    </section>
+
+    <section id="controls" class="card">
+      <h2>Agregar al carrito</h2>
+      <form id="formAdd">
+        <label for="productoSelect">Producto</label>
+        <select id="productoSelect"></select>
+
+        <label for="cantidadInput">Cantidad</label>
+        <input id="cantidadInput" type="number" min="1" value="1" required>
+
+        <button id="btnAdd" type="submit">Agregar</button>
+      </form>
+
+      <div id="mensajes" aria-live="polite"></div>
+    </section>
+
+    <section id="carrito" class="card">
+      <h2>Carrito</h2>
+      <div id="cartItems"></div>
+      <div id="resumen" class="resumen"></div>
+      <div class="actions">
+        <button id="btnClear">Vaciar carrito</button>
+        <button id="btnCheckout">Finalizar (guardar)</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto de simulador — Entregable 2</p>
+  </footer>
+
+  <script src="js/simulador_dom.js"></script>
+</body>
+</html>
