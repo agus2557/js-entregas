@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cyberpunk 2077",
+    "precio": 30000,
+    "img": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 2,
+    "nombre": "GTA V",
+    "precio": 25000,
+    "img": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 3,
+    "nombre": "Red Dead Redemption 2",
+    "precio": 35000,
+    "img": "https://via.placeholder.com/300"
+  }
+]
